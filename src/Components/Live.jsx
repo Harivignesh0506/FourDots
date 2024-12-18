@@ -3,6 +3,7 @@ import live from "../Asstes/livestreamingicon.png"
 import crc from "../Asstes/photo-cricket-team-stadium-icc-man-world-cup-2023-match-generative-ai_742418-6219.jpg"
 import Vimg from "../Asstes/Screenshot 2024-12-17 120220.png"
 
+
 const LiveStreamingBanner = () => {
   return (
     <div>
@@ -17,32 +18,35 @@ const LiveStreamingBanner = () => {
                  <p className="border border-white w-[200px] h-[50px] flex justify-center items-center rounded cursor-pointer hover:bg-white hover:text-black ">VIEW PRICING</p>
         </div>
 
-      <div>  {/* //Mid Video img Dash */}
+      <div className="w-full min-h-100vh flex flex-col gap-[40px]">  {/* //Mid Video img Dash */}
 
-      <h1 className="flex flex-col justify-center items-center text-3xl relative top-7   text-[#4A2EB0] font-bold">What do you get in a CricLogs live stream?</h1>
+      <h1 className="flex flex-col justify-center items-center text-3xl  text-[#4A2EB0] font-bold">What do you get in a CricLogs live stream?</h1>
        
-       <div className="flex relative top-[100px] left-[50px]">  {/* Video Dashborad -1 */}
+       <div className=" w-full flex flex-row gap-[50px] px-[50px]">  {/* Video Dashborad -1 */}
          <img src={Vimg} />
-          <h1 className="relative top-[80px] left-[300px] text-3xl w-full " >Sports Score Tickers </h1> 
-         <p  className="relative top-[140px] right-[180px] w-full">Advance Score Tickers to get a feel of an international match.</p>
-
+         <div className="w-full min-h-100vh flex flex-col justify-center items-center gap-[20px]">
+          <h1 className="" >Sports Score Tickers </h1> 
+         <p  className="">Advance Score Tickers to get a feel of an international match.</p>
+         </div>
        </div>
-       <div className="flex relative top-[200px] right-[50px] ">  {/* Video Dashborad -2 */}
+       <div className="w-full flex flex-row gap-[50px] px-[50px] ">  {/* Video Dashborad -2 */}
          
-          <h1 className="relative top-[80px] left-[300px] text-3xl w-full " >Promote Sponsors </h1> 
-         <p  className="relative top-[140px] right-[180px] w-full">Promote Sponsors on your live streams.</p>
+          <div className="w-full min-h-100vh flex flex-col justify-center items-center gap-[20px]">
+          <h1 className=" " >Promote Sponsors </h1> 
+          <p  className="">Promote Sponsors on your live streams.</p>
+          </div>
          <img src={Vimg} />
        </div>
 
-       <div className="flex relative top-[350px] left-[50px]">  {/* Video Dashborad -3 */}
+       <div className="w-full flex flex-row gap-[50px] px-[50px]">  {/* Video Dashborad -3 */}
          <img src={Vimg} />
-          <h1 className="relative top-[80px] left-[300px] text-3xl w-full " > Social Media Platforms </h1> 
-         <p  className="relative top-[140px] right-[180px] w-full">Advance Score Tickers to get a feel of an international match.</p>
+         <div className="w-full min-h-100vh flex flex-col justify-center items-center gap-[20px]">
+         <h1 className=" " > Social Media Platforms </h1> 
+         <p  className="">Advance Score Tickers to get a feel of an international match.</p>
+         </div>
        </div>
-
-           
       </div>
-             <h1 className="relative top-[420px] flex justify-center text-2xl text-gray-500 font-bold">*To ensure your live stream shines and qualifies for match highlights, upgrade to CricLogs Pro. Enjoy premium </h1>
+             <h1 className="relative top-[100px] flex justify-center text-2xl text-gray-500 font-bold">*To ensure your live stream shines and qualifies for match highlights, upgrade to CricLogs Pro. Enjoy premium </h1>
     </div>
     </div>
   );

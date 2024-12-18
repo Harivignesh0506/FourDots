@@ -2,12 +2,14 @@
 import './App.css';
 import LiveStreamingBanner from './Components/Live'
 import Main from './Components/Price';
+import {Icons} from './Components/Price'
 
 function App() {
   return (
-    <div className="App">
+    <div className='bg-slate-100'>
     <LiveStreamingBanner />
     <Main />
+    <Icons />
     </div>
   );
 }

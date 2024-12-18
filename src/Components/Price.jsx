@@ -1,10 +1,17 @@
 import React from 'react'
+// import { FaBeer } from 'react-icons/fa';
+// import { MdPhoneAndroid } from "react-icons/md";
+import phone from '../Asstes/goodphone (1).png'
+import wifi from '../Asstes/4gwifi.png'
+import powerbank from '../Asstes/powerbank.png'
+import tripod from '../Asstes/tripod.png'
 
 const Main = () => {
   return (
-    <div className='relative top-[1500px] w-full h-[500px] border border-black bg-black text-white'>
+    <div className='relative top-[1300px] w-full h-[500px] border border-black bg-black text-white'>
       <h1 className='text-2xl flex justify-center font-bold p-1 relative top-3' > Subscription Priced ?</h1>
       <Price />
+
       <h2 className='relative top-[100px] text-2xl flex justify-center '>*Stream unlimited matches in Daily, Monthly, Yearly Plans</h2>
       <p className="border border-white w-[250px] h-[50px] flex justify-center items-center rounded cursor-pointer bg-sky-700 border-none hover:bg-white hover:text-black relative left-[650px] top-[150px] ">PURCHASE LIVE STREAM</p>
     </div>
@@ -58,5 +65,42 @@ const Price = () => {
     </div>
   );
 };
+
+export const Icons = () =>{
+
+  return(
+    <div className='flex justify-center mt-[1350px] flex-col px-[50px]' > 
+      <h1 className=' flex justify-center text-2xl font-bold text-[#4A2EB0]  '>What do you need ?</h1>
+      <div className='flex flex-row gap-5 justify-evenly'>
+     
+      <div className='border bg-slate-300 w-[300px] h-[150px] flex justify-center mt-[50px]  rounded flex-col items-center font-bold '>
+        <h2 className='text-2xl mt-[20px] '>Quality Phone Camera</h2>
+       <img src={phone} className='w-[80px] flex justify-center items-center mt-[20px] ' />
+      </div>
+
+      <div className='border bg-slate-300 w-[300px] h-[150px] flex justify-center mt-[50px] p-2 rounded flex-col items-center font-bold'>
+        <h2 className='text-2xl mt-[20px] '>Quality Phone Camera</h2>
+       <img src={wifi} className='w-[80px] flex justify-center items-center mt-[20px] ' />
+      </div>
+
+      <div className='border bg-slate-300 w-[300px] h-[150px] flex justify-center mt-[50px] p-2 rounded flex-col items-center font-bold'>
+        <h2 className='text-2xl mt-[20px] '>Quality Phone Camera</h2>
+       <img src={powerbank} className='w-[80px] flex justify-center items-center mt-[20px] ' />
+      </div>
+
+      <div className='border bg-slate-300 w-[300px] h-[150px] flex justify-center mt-[50px] p-2 rounded flex-col items-center font-bold'>
+        <h2 className='text-2xl mt-[20px] '>Quality Phone Camera</h2>
+       <img src={tripod} className='w-[80px] flex justify-center items-center mt-[20px] ' />
+      </div>
+
+      </div>
+
+
+       
+    </div>
+  )
+}
+
+
 
 export default Main;
