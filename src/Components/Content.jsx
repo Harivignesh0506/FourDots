@@ -1,5 +1,5 @@
 import React from "react";
-import img from "./your-app-feature-2.jpg"
+import img from "../your-app-feature-2.jpg"
 
 
 
