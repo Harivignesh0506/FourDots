@@ -1,20 +1,16 @@
 
-
 import React from "react";
 
-const YourAppBanner = () => {
+const YourApp = () => {
   return (
     <div className="relative bg-blue-700 text-white text-center py-16">
       {/* Background Image */}
-
 
 
       <div
         className="absolute inset-0 opacity-20 bg-cover bg-center"
         style={{ backgroundImage: "url('your-background-image-path.jpg')" }}
       ></div>
-
-
 
 
       {/* Content */}
@@ -30,5 +26,6 @@ const YourAppBanner = () => {
   );
 };
 
-export default YourAppBanner;
 
+
+export default YourApp;

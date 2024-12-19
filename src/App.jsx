@@ -1,28 +1,57 @@
 
 import './App.css';
-import YourAppBanner from "./Components/Header"
+import YourApp from "./Components/Header"
 import Features from "./Components/Content"
-import PricingTable from './Components/Box';
+import Table from './Components/Box';
 import FooterCTA from './Components/Footer';
-import Section from './Components/Section';
-
+import Card from './Components/Section';
+import Dalaa from './Foteeeeer';
 
 
 function App() {
   return(
     <div>
-        <YourAppBanner />
+        <YourApp />
         <Features />
-        <PricingTable/>
+        <Table/>
        <FooterCTA/>
-       <Section />
+       <Card/>
+       <Dalaa />
      
     </div>
   )
 }
 
-
-
 export default App;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

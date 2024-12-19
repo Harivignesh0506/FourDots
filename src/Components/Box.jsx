@@ -1,5 +1,5 @@
 import React from "react";
-import Features from "./Content";
+
 
 const plans = [
   {
@@ -71,7 +71,7 @@ appPlus:true,
 
 ];
 
-const PricingTable = () => {
+const Table = () => {
   return (
     <div className="max-w-4xl mx-auto mt-10">
       <h2 className="text-2xl font-bold text-center mb-6 text-red-600">
@@ -112,4 +112,4 @@ const PricingTable = () => {
   );
 };
 
-export default PricingTable;
+export default Table;
