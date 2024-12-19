@@ -18,7 +18,7 @@ const LiveStreamingBanner = () => {
                  <p className="border border-white w-[200px] h-[50px] flex justify-center items-center rounded cursor-pointer hover:bg-white hover:text-black ">VIEW PRICING</p>
         </div>
 
-      <div className="w-full min-h-100vh flex flex-col gap-[40px]">  {/* //Mid Video img Dash */}
+      <div className="w-full min-h-100vh flex flex-col gap-[40px] mt-5">  {/* //Mid Video img Dash */}
 
       <h1 className="flex flex-col justify-center items-center text-3xl  text-[#4A2EB0] font-bold">What do you get in a CricLogs live stream?</h1>
        
