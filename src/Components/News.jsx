@@ -11,7 +11,7 @@ const HighlightTabs = () => {
       date: "18-Dec,2024",
       title: "Big Cricket League 2024: Day 6 Highlights, Live Scores",
       description: "The Big Cricket League 2024 continues to thrill cricket fans...",
-      location: "Surat - Lalbhai Contractor Stadium",
+      location: " ",
       image: img1,
     },
     {
@@ -123,7 +123,7 @@ const HighlightTabs = () => {
           >
             <img
               src={item.image}
-              alt={item.title}
+              
               className="w-full h-40 object-cover"
             />
             <div className="p-4">

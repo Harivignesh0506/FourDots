@@ -7,10 +7,14 @@ import { Video} from './Components/Price'
 import {FAQ} from './Components/Price'
 import Footer from './Components/Footer'
 import HighlightTabs from './Components/News'
+import {Navbar} from './Components/Header'
+import  Market from './Components/Market'
+import {CricketService} from './Components/Market'
 
 function App() {
   return (
     <div className='bg-slate-100'>
+      {/* <Navbar /> */}
     <LiveStreamingBanner />
     <Main />
     <Icons />
@@ -18,6 +22,9 @@ function App() {
     <FAQ />
     <Footer />
     <HighlightTabs />
+    <Market />
+  
+    
     </div>
   );
 }
