@@ -7,10 +7,11 @@ import { Video} from './Components/Price'
 import {FAQ} from './Components/Price'
 import Footer from './Components/Footer'
 import HighlightTabs from './Components/News'
-import {Navbar} from './Components/Header'
+
 import  Market from './Components/Market'
-import {CricketService} from './Components/Market'
+// import {CricketService} from './Components/Market'
 import  Faqs from "./Components/Faqs"
+import  Create from "./Components/CRUD/Create"
 
 function App() {
   return (
@@ -25,7 +26,7 @@ function App() {
     <HighlightTabs />
     <Market />
     <Faqs />
-  
+    <Create />
     
     </div>
   );
