@@ -10,6 +10,7 @@ import HighlightTabs from './Components/News'
 import {Navbar} from './Components/Header'
 import  Market from './Components/Market'
 import {CricketService} from './Components/Market'
+import  Faqs from "./Components/Faqs"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
     <Footer />
     <HighlightTabs />
     <Market />
+    <Faqs />
   
     
     </div>
