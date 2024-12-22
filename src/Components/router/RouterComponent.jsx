@@ -3,6 +3,7 @@ import { Route,Routes} from 'react-router-dom'
 import LiveStreamingBanner from '../Live'
 import MainCompontent  from '../Price'
 import { Video} from '../Price'
+import ScrollExample from '../try'
 
 
 
@@ -25,7 +26,7 @@ const RouterComponent = () => {
        
         
        
-        
+        <Route path="/try"element={<ScrollExample/>} />
         
      </Routes>
   )
