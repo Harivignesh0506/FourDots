@@ -17,8 +17,8 @@ function App() {
   return (
     <div className='bg-slate-100'>
       {/* <Navbar /> */}
-    <LiveStreamingBanner />
-    <Main />
+    {/* <LiveStreamingBanner /> */}
+    {/* <Main />
     <Icons />
     <Video /> 
     <FAQ />
@@ -26,7 +26,7 @@ function App() {
     <HighlightTabs />
     <Market />
     <Faqs />
-    <Create />
+    <Create /> */}
     
     </div>
   );

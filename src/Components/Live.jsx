@@ -2,9 +2,13 @@ import React from "react";
 import live from "../Asstes/livestreamingicon.png"
 import crc from "../Asstes/photo-cricket-team-stadium-icc-man-world-cup-2023-match-generative-ai_742418-6219.jpg"
 import Vimg from "../Asstes/Screenshot 2024-12-17 120220.png"
+import { Link } from "react-router-dom";
+
 
 
 const LiveStreamingBanner = () => {
+
+  
   return (
     <div>
        <img src={crc} className="relative h-[300px] flex justify-center items-center left-[500px] bg-blend-screen  " />
@@ -15,7 +19,9 @@ const LiveStreamingBanner = () => {
               <span className=" w-[200px]  h-min-100vh py-1 border border-black bg-black rounded flex justify-center gap-4  " >
                  <img src={live} className="w-[40px] h-[25px] flex justify-center items-center relative top-[20px] " /> Live</span> STREAMING </h1>
                  <p className="">Broadcast your matches to the world by streaming them live!</p>
-                 <p className="border border-white w-[200px] h-[50px] flex justify-center items-center rounded cursor-pointer hover:bg-white hover:text-black ">VIEW PRICING</p>
+                 <Link to="/component"><p className="border border-white w-[200px] h-[50px] flex justify-center items-center rounded cursor-pointer hover:bg-white hover:text-black ">VIEW PRICING</p>
+
+                 </Link>
         </div>
 
       <div className="w-full min-h-100vh flex flex-col gap-[40px] mt-5">  {/* //Mid Video img Dash */}
@@ -48,9 +54,19 @@ const LiveStreamingBanner = () => {
       </div>
              <h1 className="relative top-[100px] flex justify-center text-2xl text-gray-500 font-bold">*To ensure your live stream shines and qualifies for match highlights, upgrade to CricLogs Pro. Enjoy premium </h1>
     </div>
+    <div>
+    
+    </div>
+    
     </div>
   );
 };
+
+
+
+  
+
+
 
 export default LiveStreamingBanner;
   

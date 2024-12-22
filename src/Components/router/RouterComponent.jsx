@@ -1,16 +1,31 @@
 import React from 'react'
-import { Route,Routes } from 'react-router-dom'
+import { Route,Routes} from 'react-router-dom'
 import LiveStreamingBanner from '../Live'
-import Main from "../Price"
-import { Icons } from '../Live'
+import MainCompontent  from '../Price'
+import { Video} from '../Price'
+
+
+
+
+import Faqs from '../Faqs'
+import Market from '../Market'
+
+
 
 
 const RouterComponent = () => {
   return (
      <Routes>
         <Route path="/"element={<LiveStreamingBanner/>} />
-        <Route path="/controlled"element={<Main/>} />
-        <Route path="/controlled"element={<Icons/>} />
+       
+        <Route path="/component"element={<MainCompontent/>} />
+        <Route path="/Video"element={<Video/>} />
+        <Route path="/Faqs"element={<Faqs/>} />
+        <Route path="/Market"element={<Market/>} />
+       
+        
+       
+        
         
      </Routes>
   )

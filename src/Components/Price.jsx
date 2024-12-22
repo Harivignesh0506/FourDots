@@ -7,7 +7,7 @@ import powerbank from '../Asstes/powerbank.png'
 import tripod from '../Asstes/tripod.png'
 
 
-const Main = () => {
+const MainCompontent = () => {
   return (
     <div className='relative top-[1300px] w-full h-[500px] border border-black bg-black text-white'>
       <h1 className='text-2xl flex justify-center font-bold p-1 relative top-3' > Subscription Priced ?</h1>
@@ -189,4 +189,4 @@ export const FAQ = () =>{
 };
 
 
-export default Main ;
+export default MainCompontent ;
